@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation</title>
+	<style type="text/css">
+		div{
+			height: 50px;
+			width: 50px;
+			border-radius: 50%;
+			background: red;
+			position: relative;
+			animation-name: std;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-direction: normal;
+		}
+		@keyframes std{
+			0%{background: red; left: 0px; top: 0px;}
+			25%{background: yellow; left: 100px; top: 0px;}
+			50%{background: blue; top: 100px; left: 100px;}
+			75%{background: green;left: 0px; top: 100px;}
+			100%{background: gray; left: 0px; top: 0px;}
+		}
+	</style>
+</head>
+<body>
+
+
+<div></div>
+
+</body>
+</html>
